@@ -15,3 +15,9 @@ npm run setup;
    - notice the `joined.tiff` image file is created! (if you set everything up correctly)
 
 3. to decompose the multi page tiff you generated into 2 separate images run `node separate-multipage-tiff.js`
+
+## Credits
+
+https://imagemagick.org/script/download.php#macosx
+
+https://sharp.pixelplumbing.com/
