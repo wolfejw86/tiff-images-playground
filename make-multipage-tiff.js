@@ -50,7 +50,7 @@ async function main() {
     CONVERT_EXECUTABLE,
     [
       `${tempDir}/${userIdentifier}-${uniqueValueAssociation}*.png`, // uses wildcard to match
-      `joined.tiff`, // output multipage tiff
+      `joined.tiff`, // output multipage tiff - could also be uniquely output to `tmp` folder
     ],
     {
       env: {
