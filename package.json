@@ -1,0 +1,21 @@
+{
+  "name": "tiff-images-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "bash setup.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jenkins-x-bot",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "sharp": "^0.28.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.6"
+  }
+}
